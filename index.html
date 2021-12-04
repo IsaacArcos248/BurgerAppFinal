@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Burger Checklist</title>
+        <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+        <script src = "scriptHelper.js"></script>
+        <script src = "script.js"></script>
+        <script src = "bundle.js"></script>
+    </head>
+    <body>
+        <h1>Burger Checklist Form</h1>
+        <div>
+        <img id="mainLogo" src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.18169-9/20108237_2045580725663878_4643551318032786726_n.png?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ETnlal-Z28wAX-grJqJ&_nc_ht=scontent-atl3-1.xx&oh=178a21ae119095fc56656ce1ac24d680&oe=61CF95BF'/>
+        </div>
+        <br/>
+        <div id="burgerForm">
+        <form data-testid="burgForm">
+                <div class="formField">
+                    <label>Burger Name <input type="text" name="burgerName" id="burgerName"/></label>
+                </div>
+                <div class="formField">
+                    <label>Drink <input type="text" name="drinkName"/></label>
+                </div>
+                <div class="formField">
+                    <label>Time Fries Sat (Mins) <input type="text" name="timeFriesSat"/></label> 
+                </div>
+                <div class="formField">
+                    <label>Ice Cream Requested (#) <input type="text" name="iceCreamReq"/></label>
+                </div>
+                <button id="Submit" type="Submit">Submit</button>
+            </form>
+        </div>
+        <div id="lunchStatusCheck">
+            <h2 id="lunchStatus" data-testid="lunchStatus">Please enter order information</h2>
+            <div  id="faultyItems" data-testid="faultyItems">
+                <ol>
+                    <li id="burgerStatus" data-testid="burgerStatus">Burger Ready</li>
+                    <li id="drinkStatus" data-testid="drinkStatus">Drink Ready</li>
+                    <li id="timeFriesSatStatus" data-testid="timeFriesSatStatus">Time Fries Sat acceptable for Lunch</li>
+                    <li id="iceCreamReqStatus" data-testid="iceCreamReqStatus">Ice cream amount requested accepted</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-color: red;
+    color:white;
+  }
+
+h1 {
+    text-align: center;
+    color:white;
+ }
+ 
+ div {
+    text-align: left;
+ }
+ 
+ input [type=number]{
+     width:50%;
+ }
+
+ input [type=text]{
+    width:50%;
+}
+
+ 
+ #faultyItems {
+    visibility: hidden;   
+ }
+ 
+ #burgerForm {
+    background-color: #f2acb8;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border: 3px solid black;
+    padding: 10px;
+ }
+ 
+ #lunchStatusCheck {
+    background-color: #f2acb8;
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+ }
+
+ #mainLogo{
+     text-align: center;
+     margin:auto;
+     height:20%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ #missionTarget img {
+    max-width: 40%;
+    max-height: 250px;
+ }
+ 
+ #missionTarget {
+    background-color: #ECF0F1;
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+ }
+ 
+ button {
+    background-color: #419f6a;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 25%;
+    height: 30px;
+    margin: 10px 0;
+ }
+ 
